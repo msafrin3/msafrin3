@@ -1,5 +1,18 @@
 <script setup>
 import GuestLayout from '../Layouts/GuestLayout.vue';
+
+const getCurrentMode = () => {
+    return $("html").attr('data-layout-mode');
+}
+
+const changeMode = () => {
+    var mode = getCurrentMode();
+    if(mode == 'light') {
+        $("html").attr('data-layout-mode', 'dark');
+    } else {
+        $("html").attr('data-layout-mode', 'light');
+    }
+}
 </script>
 
 <template>
@@ -9,6 +22,11 @@ import GuestLayout from '../Layouts/GuestLayout.vue';
                 <h4 class="card-title mb-0  me-2"><b>Safrin</b> Baharudin</h4>
                 <div class="flex-shrink-0 ms-auto">
                     <ul class="nav justify-content-end nav-tabs-custom rounded card-header-tabs border-bottom-0" role="tablist">
+                        <li class="nav-item">
+                            <a href="javascript:;" class="nav-link btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode mt-2 me-2" @click="changeMode">
+                                <i class='bx bx-moon fs-22'></i>
+                            </a>
+                        </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link active" data-bs-toggle="tab" href="#today" role="tab" aria-selected="true">
                                 Today
