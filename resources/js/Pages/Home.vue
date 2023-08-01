@@ -19,7 +19,7 @@ const changeMode = () => {
     <div class="container mt-5">
         <div class="card shadow-lg rounded">
             <div class="card-header align-items-center d-flex">
-                <h4 class="card-title mb-0  me-2"><b>Safrin</b> Baharudin</h4>
+                <h4 class="card-title mb-0 me-2"><b>Safrin</b> Baharudin</h4>
                 <div class="flex-shrink-0 ms-auto">
                     <ul class="nav justify-content-end nav-tabs-custom rounded card-header-tabs border-bottom-0" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -73,7 +73,7 @@ const changeMode = () => {
                                 <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
-                                            <i class="ri-mac-line fs-24 text-primary"></i>
+                                            <i class="ri-mac-line fs-24 text-primary line-height-initial"></i>
                                         </div>
                                         <div>
                                             <h5 class="card-title text-primary">Web Development</h5>
@@ -86,7 +86,7 @@ const changeMode = () => {
                                 <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
-                                            <i class="ri-line-chart-line fs-24 text-primary"></i>
+                                            <i class="ri-line-chart-line fs-24 text-primary line-height-initial"></i>
                                         </div>
                                         <div>
                                             <h5 class="card-title text-primary">Data Analyst</h5>
@@ -99,7 +99,7 @@ const changeMode = () => {
                                 <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
-                                            <i class="ri-store-2-line fs-24 text-primary"></i>
+                                            <i class="ri-store-2-fill fs-24 text-primary line-height-initial"></i>
                                         </div>
                                         <div>
                                             <h5 class="card-title text-primary">E-Commerce</h5>
@@ -112,7 +112,7 @@ const changeMode = () => {
                                 <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
-                                            <i class="bx bxl-docker fs-24 text-primary"></i>
+                                            <i class="bx bxl-docker fs-24 text-primary line-height-initial"></i>
                                         </div>
                                         <div>
                                             <h5 class="card-title text-primary">Linux Admin & DevOps</h5>
@@ -462,213 +462,43 @@ const changeMode = () => {
                         </div>
                     </div>
                     <div class="tab-pane" id="tab3" role="tabpanel">
-                        <div class="profile-timeline">
-                            <div class="accordion accordion-flush" id="monthlyExample">
-                                <div class="accordion-item border-0">
-                                    <div class="accordion-header" id="heading11">
-                                        <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapse11" aria-expanded="false">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 avatar-xs">
-                                                    <div class="avatar-title bg-light text-success rounded-circle">
-                                                        M
-                                                    </div>
-                                                </div>
-                                                <div class="flex-grow-1 ms-3">
-                                                    <h6 class="fs-14 mb-1">
-                                                        Megan Elmore
-                                                    </h6>
-                                                    <small class="text-muted">Adding a new event with attachments - 1 month Ago.</small>
-                                                </div>
-                                            </div>
-                                        </a>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="flex-shrink-0 me-1">
+                                        <i class="ri-user-follow-fill fs-24 align-middle text-primary me-1"></i>
                                     </div>
-                                    <div id="collapse11" class="accordion-collapse collapse show" aria-labelledby="heading11" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body ms-2 ps-5">
-                                            <div class="row g-2">
-                                                <div class="col-auto">
-                                                    <div class="d-flex border border-dashed p-2 rounded position-relative">
-                                                        <div class="flex-shrink-0">
-                                                            <i class="ri-image-2-line fs-17 text-danger"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1 ms-2">
-                                                            <h6>
-                                                                <a href="javascript:void(0);" class="stretched-link">Business Template - UI/UX design</a>
-                                                            </h6>
-                                                            <small>685 KB</small>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="d-flex border border-dashed p-2 rounded position-relative">
-                                                        <div class="flex-shrink-0">
-                                                            <i class="ri-file-zip-line fs-17 text-info"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1 ms-2">
-                                                            <h6>
-                                                                <a href="javascript:void(0);" class="stretched-link">Bank Management System - PSD</a>
-                                                            </h6>
-                                                            <small>8.78 MB</small>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="d-flex border border-dashed p-2 rounded position-relative">
-                                                        <div class="flex-shrink-0">
-                                                            <i class="ri-file-zip-line fs-17 text-info"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1 ms-2">
-                                                            <h6>
-                                                                <a href="javascript:void(0);" class="stretched-link">Bank Management System - PSD</a>
-                                                            </h6>
-                                                            <small>8.78 MB</small>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="flex-grow-1">
+                                        <h5 class="fs-16 mb-0 fw-semibold">PERSONAL DETAILS</h5>
                                     </div>
                                 </div>
-                                <div class="accordion-item border-0">
-                                    <div class="accordion-header" id="heading12">
-                                        <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapse12" aria-expanded="true">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle">
-                                                </div>
-                                                <div class="flex-grow-1 ms-3">
-                                                    <h6 class="fs-14 mb-1">
-                                                        Jacqueline Steve
-                                                    </h6>
-                                                    <small class="text-muted">We has changed 2 attributes on 3 month Ago</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="collapse12" class="accordion-collapse collapse show" aria-labelledby="heading12" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body ms-2 ps-5">
-                                            In an awareness campaign, it
-                                            is vital for people to begin
-                                            put 2 and 2 together and
-                                            begin to recognize your
-                                            cause. Too much or too
-                                            little spacing, as in the
-                                            example below, can make
-                                            things unpleasant for the
-                                            reader. The goal is to make
-                                            your text as comfortable to
-                                            read as possible. A
-                                            wonderful serenity has taken
-                                            possession of my entire
-                                            soul, like these sweet
-                                            mornings of spring which I
-                                            enjoy with my whole heart.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item border-0">
-                                    <div class="accordion-header" id="heading13">
-                                        <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapse13" aria-expanded="false">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle">
-                                                </div>
-                                                <div class="flex-grow-1 ms-3">
-                                                    <h6 class="fs-14 mb-1">
-                                                        New ticket received
-                                                    </h6>
-                                                    <small class="text-muted mb-2">User <span class="text-secondary">Erica245</span> submitted a ticket - 5 month Ago</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="accordion-item border-0">
-                                    <div class="accordion-header" id="heading14">
-                                        <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapse14" aria-expanded="true">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 avatar-xs">
-                                                    <div class="avatar-title bg-light text-muted rounded-circle">
-                                                        <i class="ri-user-3-fill"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="flex-grow-1 ms-3">
-                                                    <h6 class="fs-14 mb-1">
-                                                        Nancy Martino
-                                                    </h6>
-                                                    <small class="text-muted">Commented on 24 Nov, 2021.</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading14" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body ms-2 ps-5 fst-italic">
-                                            " A wonderful serenity has
-                                            taken possession of my
-                                            entire soul, like these
-                                            sweet mornings of spring
-                                            which I enjoy with my whole
-                                            heart. Each design is a new,
-                                            unique piece of art birthed
-                                            into this world, and while
-                                            you have the opportunity to
-                                            be creative and make your
-                                            own style choices. "
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item border-0">
-                                    <div class="accordion-header" id="heading15">
-                                        <a class="accordion-button p-2 shadow-none" data-bs-toggle="collapse" href="#collapse15" aria-expanded="true">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle">
-                                                </div>
-                                                <div class="flex-grow-1 ms-3">
-                                                    <h6 class="fs-14 mb-1">
-                                                        Lewis Arnold
-                                                    </h6>
-                                                    <small class="text-muted">Create new project buildng product - 8 month Ago</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div id="collapse15" class="accordion-collapse collapse show" aria-labelledby="heading15" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body ms-2 ps-5">
-                                            <p class="text-muted mb-2">
-                                                Every team project can
-                                                have a velzon. Use the
-                                                velzon to share
-                                                information with your
-                                                team to understand and
-                                                contribute to your
-                                                project.</p>
-                                            <div class="avatar-group">
-                                                <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="" data-bs-original-title="Christi">
-                                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
-                                                </a>
-                                                <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="" data-bs-original-title="Frank Hook">
-                                                    <img src="assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xs">
-                                                </a>
-                                                <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="" data-bs-original-title=" Ruby">
-                                                    <div class="avatar-xs">
-                                                        <div class="avatar-title rounded-circle bg-light text-primary">
-                                                            R
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                                <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="" data-bs-original-title="more">
-                                                    <div class="avatar-xs">
-                                                        <div class="avatar-title rounded-circle">
-                                                            2+
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="bg-light rounded p-3">
+                                    <table class="table table-borderless table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <th>Full Name</th>
+                                                <td>:</td>
+                                                <td>MUHAMAD SAFRIN BIN BAHARUDIN</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Phone Number</th>
+                                                <td>:</td>
+                                                <td>+60 1140326406</td>
+                                            </tr>
+                                            <tr>
+                                                <th>E-Mail</th>
+                                                <td>:</td>
+                                                <td>safrinbaharudin@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Location</th>
+                                                <td>:</td>
+                                                <td>Shah Alam, Selangor / Penang</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <!--end accordion-->
                         </div>
                     </div>
                 </div>

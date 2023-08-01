@@ -11,3 +11,6 @@ File: Custom Css File
     width: 35px;
     border-radius: 15px;
 }
+.line-height-initial {
+    line-height: initial;
+}
