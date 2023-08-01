@@ -70,7 +70,7 @@ const changeMode = () => {
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="bg-soft-primary rounded p-4 mb-4">
+                                <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
                                             <i class="ri-mac-line fs-24 text-primary"></i>
@@ -83,7 +83,7 @@ const changeMode = () => {
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="bg-soft-primary rounded p-4 mb-4">
+                                <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
                                             <i class="ri-line-chart-line fs-24 text-primary"></i>
@@ -96,7 +96,7 @@ const changeMode = () => {
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="bg-soft-primary rounded p-4 mb-4">
+                                <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
                                             <i class="ri-store-2-line fs-24 text-primary"></i>
@@ -109,7 +109,7 @@ const changeMode = () => {
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="bg-soft-primary rounded p-4 mb-4">
+                                <div class="bg-light rounded p-4 mb-4">
                                     <div class="d-flex gap-3">
                                         <div>
                                             <i class="bx bxl-docker fs-24 text-primary"></i>
