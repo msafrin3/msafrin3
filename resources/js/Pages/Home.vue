@@ -126,9 +126,13 @@ const changeMode = () => {
                     <div class="tab-pane" id="tab2" role="tabpanel">
                         <div class="row">
                             <div class="col">
-                                <div class="mt-3 mb-3">
-                                    <h5 class="card-title">EDUCATION</h5>
-                                    <div class="card-title-2 bg-primary"></div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="flex-shrink-0 me-1">
+                                        <i class="ri-bank-fill fs-24 align-middle text-primary me-1"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h5 class="fs-16 mb-0 fw-semibold">EDUCATION</h5>
+                                    </div>
                                 </div>
                                 <div class="profile-timeline">
                                     <div class="accordion accordion-flush" id="todayExample">
@@ -182,11 +186,180 @@ const changeMode = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="mt-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="flex-shrink-0 me-1">
+                                            <i class="ri-user-settings-line fs-24 align-middle text-primary me-1"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h5 class="fs-16 mb-0 fw-semibold">SKILLS</h5>
+                                        </div>
+                                    </div>
+    
+                                    <div class="rounded p-3" style="background:#0f0f0f08">
+                                        <table class="table table-borderless table-sm">
+                                            <tbody>
+                                                <tr>
+                                                    <th>PHP</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Laravel</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>MySQL</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>HTML</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CSS</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>VueJS</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-line text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Docker</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-line text-warning"></i>
+                                                            <i class="ri-star-line text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-2 mt-3">
+                                        <div class="flex-shrink-0 me-1">
+                                            <i class="ri-tools-fill fs-24 align-middle text-primary me-1"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h5 class="fs-16 mb-0 fw-semibold">TOOLS / OTHERS</h5>
+                                        </div>
+                                    </div>
+                                    <div class="rounded p-3" style="background:#0f0f0f08">
+                                        <div class="d-flex gap-2 flex-wrap">
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Python</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Git</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Node</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Elasticsearch</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Ionic</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">React Native</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Nginx</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Apache</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Caprover</span>
+                                            <span class="badge rounded-pill text-bg-secondary fs-11">Python</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-2 mt-3">
+                                        <div class="flex-shrink-0 me-1">
+                                            <i class="ri-book-2-fill fs-24 align-middle text-primary me-1"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h5 class="fs-16 mb-0 fw-semibold">LANGUAGES</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="rounded p-3" style="background:#0f0f0f08">
+                                        <table class="table table-borderless table-sm">
+                                            <tbody>
+                                                <tr>
+                                                    <th>BAHASA MALAYSIA</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>ENGLISH</th>
+                                                    <td>
+                                                        <div class="d-flex gap-2 justify-content-end">
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-line text-warning"></i>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col">
-                                <div class="mt-3 mb-3">
-                                    <h5 class="card-title">EDUCATION</h5>
-                                    <div class="card-title-2 bg-primary"></div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="flex-shrink-0 me-1">
+                                        <i class="ri-user-star-fill fs-24 align-middle text-primary me-1"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h5 class="fs-16 mb-0 fw-semibold">WORKING EXPERIENCE</h5>
+                                    </div>
                                 </div>
                                 <div class="profile-timeline">
                                     <div class="accordion accordion-flush" id="todayExample">
