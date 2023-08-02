@@ -29,6 +29,7 @@
         <link href="{{ url('') }}/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
         <link href="{{ url('') }}/assets/css/custom.css" rel="stylesheet" type="text/css" />
 
+        @routes
         @vite([
             'resources/js/app.js'
         ])

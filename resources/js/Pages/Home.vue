@@ -1,5 +1,8 @@
 <script setup>
+import { onMounted, reactive } from 'vue';
 import GuestLayout from '../Layouts/GuestLayout.vue';
+import Swal from 'sweetalert2';
+import { router } from '@inertiajs/vue3';
 
 const getCurrentMode = () => {
     return $("html").attr('data-layout-mode');
@@ -13,6 +16,27 @@ const changeMode = () => {
         $("html").attr('data-layout-mode', 'light');
     }
 }
+
+const props = defineProps({
+    errors: Object
+});
+
+let feedback = reactive({
+    name: null,
+    email: null,
+    message: null
+});
+
+let submit = () => {
+    router.post(route('contact.store'), feedback, {
+        onSuccess: (response) => {
+            if(response.props.response.success) {
+                Swal.fire('Success!', response.props.response.success, 'success');
+            }
+        }
+    });
+}
+
 </script>
 
 <template>
@@ -498,6 +522,34 @@ const changeMode = () => {
                                         </tbody>
                                     </table>
                                 </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="flex-shrink-0 me-1">
+                                        <i class="ri-mail-send-fill fs-24 align-middle text-primary me-1"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h5 class="fs-16 mb-0 fw-semibold">SEND US A FEEDBACK OR QUESTION</h5>
+                                    </div>
+                                </div>
+                                <form @submit.prevent="submit">
+                                    <div class="form-group mb-2">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter Your Name" v-model="feedback.name">
+                                        <span class="text-danger" v-if="errors.name">{{ errors.name }}</span>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label>E-Mail</label>
+                                        <input type="email" class="form-control" placeholder="Enter Your Valid Email" v-model="feedback.email">
+                                        <span class="text-danger" v-if="errors.email">{{ errors.email }}</span>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label>Message</label>
+                                        <textarea class="form-control" rows="5" placeholder="Enter Your Message" v-model="feedback.message"></textarea>
+                                        <span class="text-danger" v-if="errors.message">{{ errors.message }}</span>
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>
