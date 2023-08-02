@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('test-mail', function() {
+    return view('email.contact');
+});
+
 Route::get('/', [DefaultController::class, 'index'])->name('index');
