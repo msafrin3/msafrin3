@@ -29,7 +29,7 @@ class FeedbackController extends Controller
      */
     public function store(Request $request)
     {
-        Mail::to('safrinbaharudin@gmail.com')->send(new FeedbackMail($request));
+        Mail::to('support@msafrin.net')->send(new FeedbackMail($request));
 
         return back()->with('success', 'Your Message is Successfull Deliver.');
     }
