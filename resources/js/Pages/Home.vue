@@ -37,6 +37,10 @@ let submit = () => {
     });
 }
 
+let goToContact = () => {
+    $('.nav a[href="#tab4"]').tab('show');
+}
+
 </script>
 
 <template>
@@ -80,7 +84,7 @@ let submit = () => {
                         <div class="d-flex gap-2 justify-content-center">
                             <div class="me-3">
                                 <div class="avatar-xxl">
-                                    <img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-thumbnail rounded-circle">
+                                    <img src="images/me.jpg" alt="user-img" class="img-thumbnail rounded-circle" style="width:180px">
                                 </div>
                             </div>
                             <div style="max-width: 400px">
@@ -88,8 +92,8 @@ let submit = () => {
                                 <h3 style="font-weight:600;">SAFRIN BAHARUDIN</h3>
                                 <p>I'm a Software Engineer with more than 8 years of experience with different areas of Information Technology. A Full Stack Development, Web Applications, Linux & DevOps.</p>
                                 <div class="d-flex gap-2">
-                                    <button type="button" class="btn btn-primary">DOWNLOAD CV</button>
-                                    <button type="button" class="btn btn-outline-primary">LET'S TALK</button>
+                                    <a href="resume.pdf" type="button" class="btn btn-primary" download>DOWNLOAD CV</a>
+                                    <button type="button" class="btn btn-outline-primary" @click="goToContact">LET'S TALK</button>
                                 </div>
                             </div>
                         </div>
@@ -500,8 +504,8 @@ let submit = () => {
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <img class="card-img-top img-fluid" src="images/portfolio/laramin.png" alt="Card image cap">
                                     <div class="card-body">
                                         <h4 class="card-title mb-2">Laramin</h4>
@@ -514,8 +518,8 @@ let submit = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <img class="card-img-top img-fluid" src="images/portfolio/ba3js.png" alt="Card image cap">
                                     <div class="card-body">
                                         <h4 class="card-title mb-2">BA3JS</h4>
@@ -523,8 +527,8 @@ let submit = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <div class="text-center" style="background-image: url('images/portfolio/mysqlbackup-blured.jpeg')">
                                         <img class="" src="images/portfolio/mysqlbackup.jpeg" alt="Card image cap" style="height:250px">
                                     </div>
@@ -534,8 +538,8 @@ let submit = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <div class="text-center" style="background-image: url('images/portfolio/dailyboard-blured.jpeg')">
                                         <img class="" src="images/portfolio/dailyboard.jpeg" alt="Card image cap" style="height:250px">
                                     </div>
@@ -545,8 +549,8 @@ let submit = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <div class="text-center" style="background-image: url('images/portfolio/ciliai-blured.jpeg')">
                                         <img class="" src="images/portfolio/ciliai.jpeg" alt="Card image cap" style="height:250px">
                                     </div>
@@ -556,17 +560,17 @@ let submit = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <img class="card-img-top img-fluid" src="images/portfolio/wordpress.jpg" alt="Card image cap">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
+                                    <img class="card-img-top img-fluid" src="images/portfolio/wordpress.jpg" alt="Card image cap" style="height:250px">
                                     <div class="card-body">
                                         <h4 class="card-title mb-2">Wordpress</h4>
                                         <p class="card-text">In addition to my proficiency in programming, I've also embarked on a journey of crafting compelling online experiences using the versatile WordPress platform. This dual expertise allows me to deliver holistic digital solutions that combine the power of coding with the user-friendly elegance of WordPress.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
+                            <div class="col-lg-6 mb-3">
+                                <div class="card h-100">
                                     <img class="card-img-top img-fluid" src="images/portfolio/udk.png" alt="Card image cap">
                                     <div class="card-body">
                                         <h4 class="card-title mb-2">Untung Di Kongsi (UDK)</h4>
