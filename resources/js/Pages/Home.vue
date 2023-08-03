@@ -58,6 +58,11 @@ let submit = () => {
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link" data-bs-toggle="tab" href="#tab3" role="tab" aria-selected="false" tabindex="-1">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab4" role="tab" aria-selected="false" tabindex="-1">
                                 Contact
                             </a>
                         </li>
@@ -486,6 +491,92 @@ let submit = () => {
                         </div>
                     </div>
                     <div class="tab-pane" id="tab3" role="tabpanel">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="flex-shrink-0 me-1">
+                                <i class="ri-tools-fill fs-24 align-middle text-primary me-1"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="fs-16 mb-0 fw-semibold">PORTFOLIO / PERSONAL PROJECT</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="images/portfolio/laramin.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">Laramin</h4>
+                                        <p class="card-text">Laramin is your all-in-one administrative powerhouse designed exclusively for Laravel programmers. Seamlessly integrated, it empowers you to supercharge your development process with efficient user management and robust role-based access control, all in one comprehensive platform.</p>
+                                        <!-- <div class="text-end">
+                                            <a href="https://github.com/msafrin3/laramin/tree/dev" target="_blank" class="btn btn-dark">
+                                                <i class="ri-github-fill align-bottom me-1"></i> Repository
+                                            </a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="images/portfolio/ba3js.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">BA3JS</h4>
+                                        <p class="card-text">Ba3JS is my custom made data visualization using open-source platform <a href="https://www.highcharts.com/">HighCharts</a>. I build this to enhance current widgets in Highcharts and I hate doing the repeated job. It comes with complete filtering module to make the visualization becomes more interactive.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="text-center" style="background-image: url('images/portfolio/mysqlbackup-blured.jpeg')">
+                                        <img class="" src="images/portfolio/mysqlbackup.jpeg" alt="Card image cap" style="height:250px">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">MyDBackup</h4>
+                                        <p class="card-text">MyDBackup is your essential solution for preserving MySQL database integrity, meticulously crafted with the power of Laravel and Node.js. Safeguard your critical data effortlessly with automated daily, weekly, and monthly backups, ensuring peace of mind and business continuity. I also integrate this tool with Telegram Bot to notify me the status of the process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="text-center" style="background-image: url('images/portfolio/dailyboard-blured.jpeg')">
+                                        <img class="" src="images/portfolio/dailyboard.jpeg" alt="Card image cap" style="height:250px">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">Daily Board</h4>
+                                        <p class="card-text">DailyBoard revolutionizes how you stay informed by harnessing the power of automation, AI-driven categorization, and seamless Telegram integration. With the ability to crawl, compile, and classify online news, DailyBoard offers an unparalleled news consumption experience, tailored to your interests.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="text-center" style="background-image: url('images/portfolio/ciliai-blured.jpeg')">
+                                        <img class="" src="images/portfolio/ciliai.jpeg" alt="Card image cap" style="height:250px">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">Red Hot Chilli Bot</h4>
+                                        <p class="card-text">Red Hot Chilli Bot is your ultimate partner in chili pepper cultivation, seamlessly blending the world of agriculture and artificial intelligence. Powered by the cutting-edge Lobe AI, this Telegram bot takes your chili gardening to the next level, providing real-time insights into the health and condition of your beloved chili plants.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="images/portfolio/wordpress.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">Wordpress</h4>
+                                        <p class="card-text">In addition to my proficiency in programming, I've also embarked on a journey of crafting compelling online experiences using the versatile WordPress platform. This dual expertise allows me to deliver holistic digital solutions that combine the power of coding with the user-friendly elegance of WordPress.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="images/portfolio/udk.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-2">Untung Di Kongsi (UDK)</h4>
+                                        <p class="card-text">Discover UDK, your ultimate destination for local treasures and community-driven commerce. UDK brings together a vibrant community of local sellers, offering their unique products through a seamless platform designed to redefine the way you shop. With an innovative point collection module, UDK rewards engagement and loyalty, creating a holistic shopping experience like no other.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4" role="tabpanel">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-center mb-2">
