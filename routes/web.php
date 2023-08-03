@@ -16,12 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('test-mail', function() {
-    return view('email.contact');
-});
-
 Route::get('/', [DefaultController::class, 'index'])->name('index');
 
 Route::post('/contact', [FeedbackController::class, 'store'])->name('contact.store');
-
-Route::resource('disaster', DisasterController::class);
