@@ -183,7 +183,7 @@ let goToContact = () => {
                                             </div>
                                             <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body ms-2 ps-5">
-                                                    <h6 class="fs-14 mb-1">UNIVERSITI TEKNOLOGY MALAYSIA</h6>
+                                                    <h6 class="fs-14 mb-1">UNIVERSITI TEKNOLOGI MALAYSIA</h6>
                                                     <p>DIPLOMA IN COMPUTER SCIENCE (INFORMATION TECHNOLOGY)</p>
                                                     <div>HIGHLIGHTS:</div>
                                                     <ul>
@@ -477,8 +477,8 @@ let goToContact = () => {
                                                         <li>Develop & Maintain PHP based Web Application</li>
                                                         <li>Develop Rest API's for Mobile Client & Desktop Applications</li>
                                                         <li>Lead Architect & Backend Development of the Single-Sign-On service (Magnus)</li>
-                                                        <li>Develop Web Crawlers for Data Analysist</li>
-                                                        <li>Deploy & Configure Elasticsearch for Data Analysist</li>
+                                                        <li>Develop Web Crawlers for Data Analysis</li>
+                                                        <li>Deploy & Configure Elasticsearch for Data Analysis</li>
                                                         <li>Produce Data Visualization using several platform (Kibana, D3, Highcharts)</li>
                                                         <li>Involve in AI Solution</li>
                                                         <li>Develop an AI Solution using chatbot</li>
